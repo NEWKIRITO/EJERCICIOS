@@ -1,10 +1,17 @@
 package ejercicio;
 
+import Menus.Menu;
+
 public class Ejercicio {
 
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hola, esto es una prueba. ");
+
+        System.out.println("Seleccione una opción del menu...");
+
+        Menu mostrarMenu = new Menu();
+
+        mostrarMenu.menuPrincipal();
+
     }
 
 }
