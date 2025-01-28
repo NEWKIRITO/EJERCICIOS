@@ -27,8 +27,9 @@ public class Contacto {
     //El mostrar aun no funciona correctamente.
     public void mostrar() {
         System.out.println("La lista de tareas es: ");
-        for (int i = 0; i <= contacto.size(); i++) {
+        for (int i = 0; i < contacto.size(); i++) {
             System.out.println(i + ". " + contacto.get(i));
+
         }
     }
 
